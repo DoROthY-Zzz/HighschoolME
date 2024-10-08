@@ -50,7 +50,7 @@ Character map/character encoding:
  (ASCII is within the Unicode)
  
 -	16 bits per character, 65536 characters.
--	UTF-8 UTF-16 UTF-32
+-	UTF-8 UTF-16 UTF-32 (4 bytes, 65,536 unique characters)
 
 # Color Representation
 Pixel is the basic unit of programmable color on a computer display
@@ -74,6 +74,9 @@ Total 256 x 256 x 256 = unique colors
 
 The color gradient is not smooth because the reduces of color
 Adv: reduce the size, fast speed in transition. 
+
+Data Representation Poster:
+[Computer Science.pdf](https://github.com/user-attachments/files/17292348/Computer.Science.pdf)
 
 
 ------------------------------------
