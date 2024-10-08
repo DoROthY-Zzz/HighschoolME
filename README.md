@@ -52,6 +52,8 @@ Character map/character encoding:
 -	16 bits per character, 65536 characters.
 -	UTF-8 UTF-16 UTF-32
 
+# Color Representation
+
 
 
 ------------------------------------
