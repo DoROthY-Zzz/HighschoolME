@@ -53,7 +53,27 @@ Character map/character encoding:
 -	UTF-8 UTF-16 UTF-32
 
 # Color Representation
+Pixel is the basic unit of programmable color on a computer display
+**Additive primary colors** (electronic display color): Red, green, blue (each have max 255)
+- If you add 255 red, 255 green, 255 blue, you get white on the screen.
+- If you add 0 red, 0 green, 0 blue, you get black on the screen.
+- (coloring each pixels)
+- example: In a 4 x 4 square, there is 16 pixels times 3 bytes (three color, each 1 bytes) = 48 bytes (file size)
 
+**Lossless compression**
+ran less coding
+- Example: Add 7 before a color, the color repeats 7 times. If you add 7, you need to add 1 even it only repeat one times.
+-	Fewer bytes (file size) needed to represent the same image.
+
+**24-bit color depth** (True color)
+-	Red: 8 bits (256 intensity level)
+-	Green: 8 bits (256 intensity level)
+-	Blue: 8 bits (256 intensity level)
+Total 256 x 256 x 256 = unique colors
+
+
+The color gradient is not smooth because the reduces of color
+Adv: reduce the size, fast speed in transition. 
 
 
 ------------------------------------
